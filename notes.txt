@@ -1,0 +1,23 @@
+#las cards de segmentos (administración docente, academica, pagos y moras, etc) no irán en el portal inicial del dash, debido que hacen mucho ruido visual. por lo tanto serán dirigidas al panel 
+lateral izquierdo en una sección padre llamada "Gestión" con sus respectivos hijos cuyos nombres son los de cada Card. 23/julio/2023
+#En la parte inicial del dash, se visualizara los estadisticos generales del sistema tales como: 
+ =>paz y salvos | en mora | ingresos | egresos - cada dato en suma total.
+ => población de estudiantes activos por grado y total
+ => población de estudiantes INactivos por grado y total 
+
+ #pendding 
+ -----------------------------------
+ => CREAR BASE DE DATOS Y TABLAS
+ => CONEXION A BASE DE DATOS.
+ => PROGRAMAR CONTROLADORES
+ -----------------------------------
+ => ADMIN agregar $SESSIONS para los roles, páginas y secciones en función del rol.
+ => ADMIN agregar procesamiento de recuperar contraseña
+ => ADMIN agregar procesamiento de login, validar existencia del usuario y contraseña, sino login.php
+ => ADMIN agregar procesamiento de datos en grafica de asistencia por estudiantes (individual / por salon)
+ => TEACER CARGUE DE NOTAS, LOGROS, ATTENDING
+ => ADMIN TEACHER Generador de reportes academicos, disciplina, llamados de atención, citaciones, compromisos entre otros
+ => GUARDINT(READ ONLY) ASISTENCIA DEL ESTUDIANTE (APP ASISTENCIA APP SHEET), NOTAS PARCIALES (EXTRAIDAS DESDE BD_CAMPUS_VIRTUAL)
+ -----------------------------------
+ 
+
